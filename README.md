@@ -24,7 +24,7 @@ Symbol  : pLGS
 
 ### Network: Swisstronik
 
-#### `Copy env.example to .env` and import your PK
+#### Copy `example.env to .env` and import your PK
 
 ```shell
 cp example.env .env 
