@@ -1,4 +1,4 @@
-# Swisstronik x Learn Web 3 Challenge 4 
+# Swisstronik Code Challenge 4 
 
 In this project, there are sample contracts, tests, and scripts that deploy contracts, as well as the Swisstronik blockchain network. This case demonstrates the basic usage of Hardhat.
 
@@ -29,26 +29,28 @@ Symbol  : pLGS
 ```shell
 npm run compile
 ```
+<img width="331" alt="image" src="https://github.com/Logosdibta/Swisstronik_CC4/assets/97156724/7a66fbaf-80c8-4cf7-af90-35e03a2ead3f">
 
 #### `Function Deploy`
 
 ```shell
 npm run deploy
 ```
+<img width="380" alt="image" src="https://github.com/Logosdibta/Swisstronik_CC4/assets/97156724/27424451-e857-4e58-b3d1-6b4604065ee3">
 
 #### `Function Mint`
 
 ```shell
 npm run mint
 ```
+<img width="370" alt="image" src="https://github.com/Logosdibta/Swisstronik_CC4/assets/97156724/26aeeb92-1634-4839-b3eb-af7832dee4fb">
 
 #### `Function Transfer`
 
 ```shell
 npm run transfer
 ```
-
-### `Details`
+<img width="536" alt="image" src="https://github.com/Logosdibta/Swisstronik_CC4/assets/97156724/72dbffe3-ac35-4d5d-8d5c-dd010fc2e8a0">
 
 #### `Transfer Transaction Hash`
 
