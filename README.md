@@ -24,6 +24,13 @@ Symbol  : pLGS
 
 ### Network: Swisstronik
 
+#### `Copy env.example to .env` and import your PK
+
+```shell
+cp example.env .env 
+```
+<img width="124" alt="image" src="https://github.com/Logosdibta/Swisstronik_CC4/assets/97156724/39d7b612-1f8d-44cb-9614-b28235050554">
+
 #### `Function Compile`
 
 ```shell
