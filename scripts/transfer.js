@@ -23,24 +23,18 @@ const sendShieldedTransaction = async (signer, destination, data, value) => {
 };
 
 async function main() {
-  // Address of the deployed contract
+  // your deployed contract
   const replace_contractAddress = "0x2eEa4a8A9B7D8FE2b9d3A6e0e08708046d6bacfb";
 
-  // Get the signer (your account)
   const [signer] = await hre.ethers.getSigners();
 
-  // Create a contract instance
   const replace_contractFactory = await hre.ethers.getContractFactory(
     "PERC20Sample"
   );
   const contract = replace_contractFactory.attach(replace_contractAddress);
 
-  // Send a shielded transaction to execute a transaction in the contract
   const replace_functionName = "transfer";
-  const replace_functionArgs = [
-    "0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1",
-    "1",
-  ];
+  const replace_functionArgs = ["0x16af037878a6cAce2Ea29d39A3757aC2F6F7aac1","1",];
   const transaction = await sendShieldedTransaction(
     signer,
     replace_contractAddress,
@@ -53,11 +47,9 @@ async function main() {
 
   await transaction.wait();
 
-  // It should return a TransactionResponse object
   console.log("Transfer Transaction Hash: ", transaction.hash);
 }
 
-// Using async/await pattern to handle errors properly
 main().catch((error) => {
   console.error(error);
   process.exitCode = 1;
